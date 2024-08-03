@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #000;
+}
+
+.glassbg{
+  background: rgba(255,255,255,0.1);
+-webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(1px);
+border: 1px solid rgba(255,255,255,0.05);
+}
+
+#apexchartssm6cs57p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.apexchartssm6cs57p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* Track */
+::-webkit-scrollbar-track {
+ background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #bec4c499;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
