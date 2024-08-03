@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import Chart from "react-apexcharts";
 
 const ApexChart = () => {
@@ -11,8 +11,8 @@ const ApexChart = () => {
     ],
     options: {
       theme: {
-        mode: "dark", // Set the theme mode to "dark"
-        palette: "custom", // Use a custom palette
+        mode: "dark",
+        palette: "custom",
         monochrome: {
           enabled: true,
           color: "#7595FE",
@@ -24,10 +24,10 @@ const ApexChart = () => {
         type: "bar",
         height: 350,
         toolbar: {
-          show: false, // Remove toolbar
+          show: false,
         },
         background: "transparent",
-        foreColor: "#fff", // Set font color to white for better contrast
+        foreColor: "#fff",
       },
       plotOptions: {
         bar: {
@@ -64,7 +64,7 @@ const ApexChart = () => {
         title: {
           text: "₹ (thousands)",
           style: {
-            color: "#fff", // Set y-axis title color to white
+            color: "#fff",
           },
         },
         tickAmount: 3,
@@ -84,11 +84,8 @@ const ApexChart = () => {
 
   return (
     <div className="">
-      <div className=" " style={{margin:0,padding:0
-
-      }}>
+      <div className=" " style={{ margin: 0, padding: 0 }}>
         <Chart
-        
           options={chartState.options}
           series={chartState.series}
           type="bar"

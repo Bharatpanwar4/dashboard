@@ -1,9 +1,8 @@
-import { ChevronDown } from 'lucide-react';
-import BarChart from '../charts/BarChart';
-import { motion } from 'framer-motion';
+import { ChevronDown } from "lucide-react";
+import BarChart from "../charts/BarChart";
+import { motion } from "framer-motion";
 
 const BarGraph = () => {
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -21,8 +20,6 @@ const BarGraph = () => {
           <ChevronDown />
         </motion.div>
       </div>
-
-   
 
       <BarChart />
     </motion.div>

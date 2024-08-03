@@ -1,52 +1,3 @@
-// import { ChevronDown, ChevronUp } from "lucide-react";
-// import { StatsCardDetails } from "../../utils/constant";
-
-// const StatsCard = () => {
-//   return (
-//     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-//       {StatsCardDetails?.map((item) => {
-//         return (
-//           <div
-//             key={item.name}
-//             className="col-span-1 bg-componentBg p-4 rounded-md whitespace-nowrap"
-//           >
-//             <div className="flex flex-col gap-1">
-//               <div
-//                 className={`p-2 lg:p-3  flex items-center justify-center w-fit rounded-xl `}
-//                 style={{ backgroundColor: item.bgIcon }}
-//               >
-//                 <div className="w-5 h-5 flex items-center justify-center">
-//                   {item.icon}
-//                 </div>
-//               </div>
-//               <div className="text-sm ">{item.name}</div>
-//             </div>
-
-//             <div className="flex items-center justify-between mt-3 lg:mt-6">
-//               <p className="font-semibold text-2xl lg:text-3xl xl:text-4xl">{item.number}</p>
-//               <div className="text-sm">
-//                 {" "}
-//                 <p className="flex items-center">
-//                   {" "}
-//                   {item.positive ? (
-//                     <ChevronUp className="" fill="#0f0" color="#0f0" />
-//                   ) : (
-//                     <ChevronDown fill="#f00" color="#f00" />
-//                   )}{" "}
-//                   {item.percentage} %
-//                 </p>{" "}
-//               </div>
-//             </div>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// };
-
-// export default StatsCard;
-
-
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { StatsCardDetails } from "../../utils/constant";
 import { motion } from "framer-motion";
@@ -62,7 +13,6 @@ const StatsCard = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-
           >
             <div className="flex md:flex-col justify-between items-center sm:justify-start sm:items-start gap-1">
               <motion.div
@@ -70,7 +20,10 @@ const StatsCard = () => {
                 style={{ backgroundColor: item.bgIcon }}
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="w-5 h-5 flex items-center justify-center" style={{ color:item.col}}>
+                <div
+                  className="w-5 h-5 flex items-center justify-center"
+                  style={{ color: item.col }}
+                >
                   {item.icon}
                 </div>
               </motion.div>
@@ -78,7 +31,9 @@ const StatsCard = () => {
             </div>
 
             <div className="flex items-center justify-between mt-3 lg:mt-6">
-              <p className="font-semibold text-2xl lg:text-3xl xl:text-4xl">{item.number}</p>
+              <p className="font-semibold text-2xl lg:text-3xl xl:text-4xl">
+                {item.number}
+              </p>
               <div className="text-sm">
                 <p className="flex items-center">
                   {item.positive ? (

@@ -217,54 +217,61 @@ export const OrderTableDetails = [
   },
 ];
 
-
 export const customerFeedbackDetails = [
   {
     id: 1,
-    name: 'Alice Johnson',
+    name: "Alice Johnson",
     rating: 4.5,
-    review: 'The pasta was delicious and cooked to perfection! The sauce was flavorful, and the portion size was just right. Will definitely order again.',
+    review:
+      "The pasta was delicious and cooked to perfection! The sauce was flavorful, and the portion size was just right. Will definitely order again.",
   },
   {
     id: 2,
-    name: 'Bob Smith',
+    name: "Bob Smith",
     rating: 5,
-    review: 'Best burger I have ever had. The meat was juicy, the bun was fresh, and the toppings were plentiful. Highly recommend!',
+    review:
+      "Best burger I have ever had. The meat was juicy, the bun was fresh, and the toppings were plentiful. Highly recommend!",
   },
   {
     id: 3,
-    name: 'Charlie Brown',
+    name: "Charlie Brown",
     rating: 3.5,
-    review: 'The salad was fresh but could use more dressing. The vegetables were crisp, and the ingredients were high quality, but it was a bit bland.',
+    review:
+      "The salad was fresh but could use more dressing. The vegetables were crisp, and the ingredients were high quality, but it was a bit bland.",
   },
   {
     id: 4,
-    name: 'Diana Prince',
+    name: "Diana Prince",
     rating: 2.5,
-    review: 'The soup was too salty and not hot enough. The flavor was good, but it was almost lukewarm when served, which was disappointing.',
+    review:
+      "The soup was too salty and not hot enough. The flavor was good, but it was almost lukewarm when served, which was disappointing.",
   },
   {
     id: 5,
-    name: 'Ethan Hunt',
+    name: "Ethan Hunt",
     rating: 5,
-    review: 'Absolutely loved the steak. Cooked exactly how I like it. The seasoning was perfect, and the side dishes complemented the meal well.',
+    review:
+      "Absolutely loved the steak. Cooked exactly how I like it. The seasoning was perfect, and the side dishes complemented the meal well.",
   },
   {
     id: 6,
-    name: 'Fiona Gallagher',
+    name: "Fiona Gallagher",
     rating: 4,
-    review: 'Great pizza, but the crust was a bit too thick for my taste. The toppings were generous, and the cheese was melted perfectly.',
+    review:
+      "Great pizza, but the crust was a bit too thick for my taste. The toppings were generous, and the cheese was melted perfectly.",
   },
   {
     id: 7,
-    name: 'George Michael',
+    name: "George Michael",
     rating: 3,
-    review: 'The sushi was decent but not very flavorful. The fish was fresh, but the rice lacked seasoning, making the overall taste bland.',
+    review:
+      "The sushi was decent but not very flavorful. The fish was fresh, but the rice lacked seasoning, making the overall taste bland.",
   },
   {
     id: 8,
-    name: 'Hannah Montana',
+    name: "Hannah Montana",
     rating: 1,
-    review: 'Terrible service and the food was cold when it arrived. The presentation was poor, and the taste did not make up for the cold temperature.',
+    review:
+      "Terrible service and the food was cold when it arrived. The presentation was poor, and the taste did not make up for the cold temperature.",
   },
 ];

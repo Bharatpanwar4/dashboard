@@ -17,7 +17,7 @@ const Dashboard = ({ activeNav }: any) => {
           ? "Transaction"
           : "Shop"}
       </div>
-{/* stats card and netportfolio card */}
+      {/* stats card and netportfolio card */}
       <div className="flex items-stretch flex-col xl:flex-row  justify-between gap-6 align-baseline mt-6">
         <div className="w-full xl:w-2/3">
           <StatsCard />
@@ -26,22 +26,22 @@ const Dashboard = ({ activeNav }: any) => {
           <NetProfitCard />
         </div>
       </div>
-{/* bar and dishes card */}
+      {/* bar and dishes card */}
       <div className="flex items-stretch flex-col xl:flex-row  justify-between gap-6 align-baseline mt-6 h-fit">
         <div className="w-full xl:w-2/3 ">
-          <BarGraph/>
+          <BarGraph />
         </div>
         <div className="w-full xl:w-1/3 ">
-         <DishCard/>
+          <DishCard />
         </div>
       </div>
-{/* table and reviews */}
+      {/* table and reviews */}
       <div className="flex items-stretch flex-col xl:flex-row  justify-between gap-6 align-baseline mt-6 h-fit">
         <div className="w-full xl:w-2/3 ">
-          <OrderTable/>
+          <OrderTable />
         </div>
         <div className="w-full xl:w-1/3 ">
-         <CustomerFeedback/>
+          <CustomerFeedback />
         </div>
       </div>
     </div>
